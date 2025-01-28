@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="../styles/signin.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Entrar</h1>
+            <div class="msgError"></div>
+
+            <div class="label-float">
+                <input type="text" id="usuario" required>
+                <label for="userLabel" for="usuario">Usuário</label>
+            </div>
+
+            <div class="label-float">
+                <input type="password" id="senha" required>
+                <label for="senha" id="senhaLabel">Senha</label>
+                <i class="fa fa-eye" aria-hidden="true"></i>
+            </div>
+
+            <div class="justify-center">
+                <button onclick="entrar()">Entrar</button>
+            </div>
+
+            <div class="justify-center">
+                <hr/>
+            </div>
+
+            <p>Não tem uma conta?
+                <a href="./signup.html">Cadastra-se</a>
+            </p>
+
+        </div>
+    </div>
+    
+    <script src="../scripts/signin.js"></script>
+</body>
+</html>
